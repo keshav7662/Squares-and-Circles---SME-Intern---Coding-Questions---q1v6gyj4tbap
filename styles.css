@@ -5,12 +5,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
 }
 
 .inner-square, .circle {
   margin: 10px; 
-  box-sizing: border-box; 
 }
 
 .inner-square {
@@ -19,5 +17,5 @@
 
 .circle {
   background-color: blue;
-  border-radius: 50%; /* Makes the element a circle */
+  border-radius: 100%; 
 }
